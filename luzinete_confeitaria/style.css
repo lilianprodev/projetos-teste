@@ -1,0 +1,100 @@
+
+
+body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f8f8f8;
+            color: #333;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h1, h2 {
+            color: #8b4513; /* Marrom para título */
+            text-align: center;
+        }
+        .item-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+        .item-card {
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 15px;
+            width: 280px;
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+            background-color: #fffaf0; /* Branco amarelado */
+        }
+        .item-card h3 {
+            color: #d2691e; /* Chocolate */
+            margin-top: 0;
+        }
+        .item-card p {
+            font-size: 1.1em;
+            color: #555;
+        }
+        .price {
+            font-weight: bold;
+            color: #228b22; /* Verde floresta */
+            font-size: 1.2em;
+        }
+        .whatsapp-link {
+            display: block;
+            text-align: center;
+            margin-top: 30px;
+            padding: 15px 25px;
+            background-color: #25d366; /* Verde WhatsApp */
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 1.3em;
+            font-weight: bold;
+            transition: background-color 0.3s ease;
+        }
+        .whatsapp-link:hover {
+            background-color: #128c7e;
+        }
+        form {
+            margin-top: 40px;
+            border-top: 1px dashed #ccc;
+            padding-top: 20px;
+        }
+        form label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+        form input[type="text"],
+        form input[type="tel"],
+        form textarea {
+            width: calc(100% - 22px); /* Ajusta a largura para o padding */
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+        form textarea {
+            resize: vertical;
+            min-height: 80px;
+        }
+        form button {
+            background-color: #d2691e; /* Chocolate */
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1.1em;
+            transition: background-color 0.3s ease;
+        }
+        form button:hover {
+            background-color: #8b4513; /* Marrom mais escuro */
+        }
