@@ -57,7 +57,7 @@
 
         </div>
 
-        <h2>Salgados Fresquinhos</h2>
+        <h2>Salgados Congelados</h2>
 
         <div class="item-card">
 
