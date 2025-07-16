@@ -59,7 +59,7 @@
 
         <h2>Salgados Congelados</h2>
 
-        <div class="item-card">
+        <div class="item-list">
 
              <div class="item-card">
                 <h3>Coxinha de Frango</h3>
