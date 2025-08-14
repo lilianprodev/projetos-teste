@@ -69,6 +69,10 @@ include "header.php";
         </div>
         <p class="note">* Acréscimo de R$ 15,00 para Recheios de Maracujá.</p>
     </section>
+
+     <a href="https://api.whatsapp.com/send?phone=5571981549809&text=Ol%C3%A1%2C%20gostaria%20de%20fazer%20um%20pedido%20da%20tabela%20de%20pre%C3%A7os!" target="_blank" class="whatsapp-button">
+        Fazer Pedido por WhatsApp
+    </a>
 </div>
 
 </body>
