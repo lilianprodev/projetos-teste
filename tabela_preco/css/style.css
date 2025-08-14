@@ -146,6 +146,26 @@ body {
     font-size: 1em;
 }
 
+/* Estilo para o botão do WhatsApp */
+.whatsapp-button {
+    display: inline-block;
+    background-color: #df0700; /* Verde do WhatsApp */
+    color: #fff;
+    padding: 15px 30px;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 50px;
+    margin-top: 40px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.whatsapp-button:hover {
+    background-color: #128c7e;
+    transform: translateY(-3px);
+}
+
 @media (max-width: 600px) {
     .container {
         padding: 20px;
